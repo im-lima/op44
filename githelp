@@ -13,3 +13,4 @@ git push origin master\main - отправка в ваш репозиторий
 
 полезные команды
 git status / -s - показывает этапы file
+git rm --cached namefile: рип файлов в репозиторий
