@@ -14,3 +14,6 @@ git push origin master\main - отправка в ваш репозиторий
 полезные команды
 git status / -s - показывает этапы file
 git rm --cached namefile: рип файлов в репозиторий
+
+git clon урл ссылка - скачивает проект из гит репозитория
+git remote remove origin - отвязывает проект от репозитория
