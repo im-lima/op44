@@ -17,3 +17,9 @@ git rm --cached namefile: рип файлов в репозиторий
 
 git clon урл ссылка - скачивает проект из гит репозитория
 git remote remove origin - отвязывает проект от репозитория
+
+git branch
+git branch name
+git checkout name
+
+git merge -  сливает обновления из ветки которую вы указали в ветку в которой вы находитесь
