@@ -1,5 +1,8 @@
 import time
 
+from lessons.lesson4_2 import Remanga
+
+
 
 def mtime(func):
     def wrapper(*args, **kwargs):
@@ -10,21 +13,19 @@ def mtime(func):
         print(f"Function {func.__name__} took {res:.3f} seconds")
         return result
     return wrapper
-
-
 @mtime
 def comsum(n):
     total = sum(range(n))
     return total
-
 print(comsum(1000000))
-
 mtime(comsum(10000))
-
 # mtime(comsum(100000))
 
 # Press the green button in the gutter to run the script.
 # if __name__ == '__main__':
 #     print_hi('PyCharm')
+if __name__ == '__main__':...
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

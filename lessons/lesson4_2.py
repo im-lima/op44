@@ -49,9 +49,16 @@ class Remanga:
         print(self.manga, ' улучшена рисовка')
 
 
-class Newmanga(Books, Manga, Remanga): pass
-
+# class Newmanga(Books, Manga, Remanga): pass
+class Newmanga( Manga, Remanga): pass
 
 # MRO-порядок выполнения методов
 mymanga = Newmanga('ван пис', 'ода')
-print(Newmanga.mro())
+# print(Newmanga.mro())
+
+if __name__=='__main__':
+    print(Newmanga.mro())
+    print(Newmanga.mro())
+    print(Newmanga.mro())
+    print(Newmanga.mro())
+    print(Newmanga.mro())
