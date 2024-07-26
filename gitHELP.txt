@@ -29,4 +29,4 @@ git merge - сливает обновления из ветки
 команды для venv:
 python3\py\py3\python -m venv env
 pip install name
-pip freeze
+pip freeze > namefile
