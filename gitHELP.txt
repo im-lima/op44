@@ -30,3 +30,7 @@ git merge - сливает обновления из ветки
 python3\py\py3\python -m venv env
 pip install name
 pip freeze > namefile
+deactivate - деактивировать вертуальную среду
+source .venv/bin/activate - активировать вертуальную среду
+
+pip install python-decouple - чтобы вытащить токен из .env
